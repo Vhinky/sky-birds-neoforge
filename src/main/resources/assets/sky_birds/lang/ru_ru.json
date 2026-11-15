@@ -1,0 +1,7 @@
+{
+  "sky_birds.configuration.title": "Sky Birds",
+  "sky_birds.configuration.enabled": "Птицы в небе",
+  "sky_birds.configuration.frequency": "Частота появления",
+  "sky_birds.configuration.maxFlocks": "Максимум стай одновременно",
+  "sky_birds.configuration.sizeMultiplier": "Размер птиц"
+}

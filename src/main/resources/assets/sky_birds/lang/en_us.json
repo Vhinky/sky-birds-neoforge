@@ -1,0 +1,7 @@
+{
+  "sky_birds.configuration.title": "Sky Birds",
+  "sky_birds.configuration.enabled": "Birds in the sky",
+  "sky_birds.configuration.frequency": "Spawn frequency",
+  "sky_birds.configuration.maxFlocks": "Max flocks at once",
+  "sky_birds.configuration.sizeMultiplier": "Bird size"
+}

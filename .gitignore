@@ -1,0 +1,28 @@
+# Gradle
+/.gradle/
+/build/
+/out/
+
+# Запуски из IntelliJ (миры, логи, конфиги, моды для теста)
+/run/
+/run-server/
+/runs/
+
+# IntelliJ
+/.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse / VS Code
+/.settings/
+/.classpath
+/.project
+/bin/
+/.vscode/
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
