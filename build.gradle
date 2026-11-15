@@ -18,6 +18,11 @@ base {
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
+// Имя файла: sky_birds-1.0.0-neoforge-1.21.1.jar (версия мода, загрузчик, версия Minecraft)
+jar {
+    archiveClassifier = "neoforge-${minecraft_version}"
+}
+
 neoForge {
     // Specify the version of NeoForge to use.
     version = project.neo_version
@@ -37,6 +42,8 @@ neoForge {
 
         server {
             server()
+            // своя папка, чтобы сервер не подхватывал клиентские моды (Sodium, Iris) из run/mods
+            gameDirectory = project.file('run-server')
             programArgument '--nogui'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
